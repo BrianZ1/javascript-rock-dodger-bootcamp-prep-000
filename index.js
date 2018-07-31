@@ -152,10 +152,10 @@ function moveDodgerLeft() {
    var left = 0;
    
    function leftMove(){
-     DODGER.style.left = `${top += 4}px`;
+     DODGER.style.left = `${left += 4}px`;
    }
    
-   if(top < 0){
+   if(left < 0){
        window.requestAnimationFrame(leftMove);
    }
    
